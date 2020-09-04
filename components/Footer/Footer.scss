@@ -1,0 +1,25 @@
+@import "../../assets/css/mq.scss";
+
+.footer{
+    background-color: white;
+}
+.navbar {
+  background-color: inherit;
+
+  .navbar-item {
+    &:hover {
+      background-color: inherit;
+      color: $primary-blue;
+    }
+    &-tight {
+      padding: 0.25rem;
+    }
+  }
+}
+.navbar-dash {
+  align-self: center;
+}
+
+.navbar-menu {
+  justify-content: center;
+}

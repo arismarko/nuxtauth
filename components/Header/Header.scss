@@ -1,0 +1,32 @@
+@import "../../assets/css/mq.scss";
+
+.navbar {
+  background-color: inherit;
+
+  .navbar-item {
+    &:focus, &:hover {
+      background-color: inherit;
+      color: $primary-blue;
+    }
+
+
+    &.is-active {
+      background-color: none;
+      color: $primary-blue;
+      font-weight: 700;
+    }
+  }
+}
+
+.button {
+  background-color: inherit;
+  border: none;
+  &:hover {
+    background-color: inherit;
+    color: $primary-blue;
+  }
+}
+
+.navbar-menu {
+  justify-content: center;
+}
